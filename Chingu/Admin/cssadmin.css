@@ -1,0 +1,438 @@
+﻿body {
+    background: #ffffff;
+    border: 0;
+    margin: 0;
+    display: block;
+}
+
+body, button, input, select, table, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 14px;
+    line-height: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-content:center;
+}
+
+.header-language-background, .header-language-background a {
+    color: #666;
+    text-decoration: none;
+}
+
+.header-language-background {
+    height: 29px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.header-container {
+    height: 29px;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.news, .ticket, .taikhoan {
+    position: relative;
+    margin-left: 35px;
+}
+
+.header-career {
+    margin-right: 15px;
+    float: right;
+}
+
+.header-career {
+    padding-top: 5px;
+}
+
+.page-header {
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+
+.page-header {
+    width: 100%;
+    margin: 0px auto;
+    background: url('../img/taixuong.png') repeat-x scroll left bottom transparent;
+    background-size: 10px 150px;
+    height: 150px;
+}
+
+.page-header-container {
+    position: relative;
+    z-index: 2000;
+}
+
+.page-header-container {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.logo {
+    max-width: 300px;
+    min-height: 90px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    min-width: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+    .logo .large {
+        display: block;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+#header-nav {
+    display: block;
+    left: 140px;
+    position: absolute;
+    top: 55px;
+}
+
+.skip > ul > li {
+    list-style: none;
+    float: left;
+}
+
+    .skip > ul > li > a {
+        padding: 0 15px 0 15px;
+        text-decoration: none;
+        line-height: 20px;
+        display: block;
+        color: #000000;
+    }
+
+ul.submenu {
+    background: url(../img/bg_menu_hover.png) repeat scroll center center rgba(0, 0, 0, 0);
+    padding: 3px;
+    position: absolute;
+    min-width: 190px;
+    display: none;
+}
+
+    ul.submenu li {
+        list-style: none;
+    }
+
+        ul.submenu li a {
+            text-decoration: none;
+            border-bottom: none;
+            padding: 0 35px 0 10px;
+            color: #fff;
+            line-height: 40px;
+        }
+
+            ul.submenu li a:hover {
+                color: #ff0000
+            }
+
+.skip ul.submenu li {
+    border-left: 2px solid #828282;
+    border-right: 2px solid #828282;
+}
+
+.first1 {
+    border-top: 2px solid #828282;
+}
+
+.last1 {
+    border-bottom: 2px solid #828282;
+}
+
+.skip > ul > li:hover ul.submenu {
+    display: block;
+}
+
+.main-container, .footer-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px !important;
+}
+
+.main {
+    width: 980px;
+}
+
+.col-main {
+    float: none;
+    width: auto;
+    padding: 0;
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.cate {
+    border-bottom: 3px solid #241d1e;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.page-title {
+    margin-top: 30px;
+}
+
+.category-title > * {
+    display: inline-block;
+    color: #636363;
+}
+
+.category-title h1 {
+    text-transform: capitalize;
+    color: #222;
+    font-size: 38px;
+    font-weight: normal;
+}
+
+.sub-category {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+    .sub-category ul li {
+        display: inline-block;
+        margin-left: 24px;
+    }
+
+    .sub-category a {
+        color: #666;
+        padding-left: 15px;
+        font-size: 20px;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+.button {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    display: inline-block;
+    padding: 6px 2px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    top:50%;
+    position:absolute;
+}
+
+.footer-cgv-container {
+    margin-top: 0;
+}
+
+.footer-cgv-container {
+    background: url(../img/tuong.jpg) repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    padding-bottom: 120px;
+    width: 100%;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    padding-top: 10px;
+}
+
+    .footer, .footer button {
+        font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+    }
+
+.footer-cgv-policy {
+    width: 100%;
+    border-bottom: 2px solid #222;
+    overflow: hidden;
+    display: block;
+}
+
+.content-cgv-policy {
+    width: 980px;
+    margin: 0px auto;
+}
+
+    .content-cgv-policy p {
+        color: #636363;
+    }
+
+    .content-cgv-policy h3 {
+        color: #636363;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+h3, .h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+    font-style: normal;
+    text-rendering: optimizeSpeed;
+}
+
+.cgvvietnam {
+    float: left;
+    width: 22%;
+}
+
+    .cgvvietnam ul {
+        float: left;
+        width: 100%;
+    }
+
+        .cgvvietnam ul li {
+            float: left;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+.cgvpolicy {
+    float: left;
+    width: 22%;
+}
+
+    .cgvpolicy ul {
+        float: left;
+        width: 100%;
+    }
+
+        .cgvpolicy ul li {
+            float: left;
+            width: 100%;
+        }
+
+.cgvlienhe {
+    float: left;
+    width: 22%;
+}
+
+    .cgvlienhe ul li {
+        float: left;
+        margin-right: 3px;
+    }
+
+        .cgvlienhe ul li a.facebook {
+            background-position: -9px -3px;
+        }
+
+        .cgvlienhe ul li a {
+            background: url(../img/flu.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+            display: block;
+            height: 39px;
+            text-indent: -9999px;
+            width: 39px;
+        }
+
+            .cgvlienhe ul li a.ytb {
+                background-position: -54px -3px;
+            }
+
+            .cgvlienhe ul li a.line {
+                background-position: -145px -3px;
+            }
+
+            .cgvlienhe ul li a.instagram {
+                background-position: -98px -3px;
+            }
+
+            .cgvlienhe ul li a.zalo {
+                background-position: -191px -3px;
+            }
+
+.khachhang {
+    float: right;
+    width: 28%;
+}
+
+ul {
+    list-style: none;
+    line-height: 20px;
+}
+
+    ul li a {
+        text-decoration: none;
+        color: #636363;
+    }
+
+.products-grid > li:nth-child(odd) {
+    clear: none;
+}
+
+.grid-4-col > li:nth-child(2n), .grid-4-col > li:nth-child(3n) {
+    margin-right: 64px;
+}
+
+.products-grid .add-to-links {
+    margin-bottom: 0;
+}
+
+.add-to-links {
+    margin: 7px 0;
+}
+
+.film-lists ul.add-to-links {
+    float: left;
+    width: 100%;
+}
+.end h1{
+    align-content:center;
+}
+.btnThem {
+    border-style: none;
+    background-color: #bd1919;
+    border-width: 0;
+    display: inline-block;
+    padding: 6px 2px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items:center;
+}
+.btnmua {
+    border-style: none;
+    background-color: #bd1919;
+    border-width: 0;
+    display: inline-block;
+    padding: 6px 2px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+}
+.btn {
+    border-style: none;
+    background-color: #bd1919;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+}

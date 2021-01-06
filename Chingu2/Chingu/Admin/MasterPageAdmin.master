@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="MasterPageAdmin" %>
+
+<!DOCTYPE html>
+<link href="cssadmin.css" rel="stylesheet" />
+<html>
+<head runat="server">
+    <title>ADMIN
+    <asp:ContentPlaceHolder id="title" runat="server">
+    </asp:ContentPlaceHolder></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style3 {
+            margin-left: 4px;
+        }
+        .auto-style4 {
+            height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+        <form id="form1" runat="server">
+     <div class="page">
+        <header id="header" class="page-header">
+          <div class="page-header-container">
+            <a class="logo" href="#"><img src="../img/Thiết_kế_không_tên-removebg-preview.png" alt="CG Cimenas" class="large" style="width: 234px; height: 93px" /></a>
+            <div id="header-nav" class="skip">
+               <ul class="root">
+                   <li><a href="QuanLyPhim.aspx"><b>QUẢN LÝ PHIM</b></a>
+                   </li>
+                   <li><a href="QuanLyKhachHang.aspx"><b>QUẢN LÝ KHÁCH HÀNG</b></a>
+                   </li>
+                   <li><a href="quanlynhanvien.aspx"><b>QUẢN LÝ NHÂN VIÊN</b></a>
+                   </li>
+                   <li><a href="QuanLyDoanhThu.aspx"><b>QUẢN LÝ DOANH THU</b></a>
+                   </li>
+                   <li><a href="quanlyngaychieu.aspx"><b>QUẢN LÝ NGÀY CHIẾU</b></a>
+                   </li>
+                   <li><a href="quanlytintuc.aspx"><b>QUẢN LÝ TIN TỨC</b></a>
+                   </li>
+                   <li><a href="quanlyrapphim.aspx"><b>QUẢN LÝ RẠP CHIẾU PHIM</b></a>
+                   </li>
+                   <li>
+                       <asp:LinkButton ID="lbdx" runat="server" OnClick="LinkButton1_Click">ĐĂNG XUẤT</asp:LinkButton>
+                    </li>
+               </ul>
+            </div>
+          </div>
+        </header>
+         <div class="main-container">
+       <asp:ContentPlaceHolder id="body" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+         <div class="footer-cgv-container">
+             <div class="footer">
+                 <div class="footer-cgv-policy">
+                     <div class="content-cgv-policy">
+                         <div class="cgvvietnam">
+                             <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CG VIỆT NAM</h3>
+                             <ul class="auto-style4">
+                             <li class="auto-style3"><a href="#">Giới thiệu</a></li>
+                             <li><a href="#">Tiện ích online</a></li>
+                             <li><a href="thequatang.aspx">Thẻ quà tặng</a></li>
+                             <li><a href="tuyendung.aspx">Tuyển dụng</a></li>
+                             <li><a href="#">Liên hệ quảng cáo CG</a></li>
+                             </ul>
+                         &nbsp;</div>
+                         <div class="cgvpolicy">
+                             <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Điều khoản sử dụng</h3>
+                             <ul>
+                             <li><a href="dieukhoanchung.aspx">Điều khoản chung</a></li>
+                             <li><a href="#">Điều khoản giao dịch</a></li>
+                             <li><a href="thanhtoan.aspx">Chính sách thanh toán</a></li>
+                             <li><a href="csbaomat.aspx">Chính sách bảo mật</a></li>
+                             <li><a href="#">Câu hỏi thường gặp</a></li>
+                             </ul>
+                         </div>
+                         <div class="cgvlienhe">
+                             <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hãy kết nối chúng tôi</h3>
+                             <ul>
+                             <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100034550379193" target="_blank"></a></li>
+                             <li><a class="ytb" href="https://www.youtube.com/channel/UCTjL3uGiX3TG-0PdDVdwNmw?view_as=subscriber" target="_blank"></a></li>
+                             <li><a class="line" href="#" target="_blank"></a></li>
+                             <li><a class="instagram" href="https://www.instagram.com/tuilatrii/" target="_blank"></a></li>
+                             <li><a class="zalo" href="https://chat.zalo.me/" target="_blank"></a></li>
+                             </ul>
+                         </div>
+                         <div class="khachhang">
+                             <h3>Chăm sóc khách hàng</h3>
+                             <p">
+                                 "Hotline: 094 342 511"
+                                 <br />
+                                 "Giờ làm việc: 24/24
+                                 <br />
+                                 "Email hỗ trợ: "<a href="https://myaccount.google.com/?utm_source=OGB&tab=mk&utm_medium=act&pli=1&gar=1" style ="text-decoration: none">hoidapclgcd@gmail.com</a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+</form>
+</body>
+</html>
